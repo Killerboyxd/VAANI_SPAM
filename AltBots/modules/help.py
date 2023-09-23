@@ -3,7 +3,7 @@ from telethon import events, Button
 from config import X1, X2, X3, X4, X5, X6, X7, X8, X9, X10, SUDO_USERS, CMD_HNDLR as hl
 
 
-HELP_STRING = f"★ ™°‌ 🫧 🇴 🇽 𝐘 𝐆 𝐄 𝐍 𝙃𝙚𝙡𝙥 𝙈𝙚𝙣𝙪 ★\n\n» **𝙲𝙻𝙸𝙲𝙺 𝙾𝙽 𝙱𝙴𝙻𝙾𝚆 𝙱𝚄𝚃𝚃𝙾𝙽 𝙵𝙾𝚁 𝙷𝙴𝙻𝙿**\n» **𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝚁: @PRADHAN474**"
+HELP_STRING = f"★ ™ 𝐒 𝐇 𝐈 𝐕 🜲 💸\>ॐ𝐌ʀ भगवाधारी 𝙃𝙚𝙡𝙥 𝙈𝙚𝙣𝙪 ★\n\n» **𝙲𝙻𝙸𝙲𝙺 𝙾𝙽 𝙱𝙴𝙻𝙾𝚆 𝙱𝚄𝚃𝚃𝙾𝙽 𝙵𝙾𝚁 𝙷𝙴𝙻𝙿**\n» **𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝚁: @ll_SABKA_BHAI_KILLER_ll*"
 
 HELP_BUTTON = [
     [
@@ -14,8 +14,8 @@ HELP_BUTTON = [
       Button.inline("💘 𝙲𝚘𝚖𝚖𝚊𝚗𝚍𝚂 💘", data="extra")
     ],
     [
-      Button.url("🍁 𝙳𝚎𝚟𝚎𝚕𝚘𝚙𝚎𝚁 🍁", "https://t.me/PRADHAN474"),
-      Button.url("💖 s𝚞𝚙𝚙𝚘𝚛𝚃 💖", "https://t.me/BWANDARLOK")
+      Button.url("🍁 𝙳𝚎𝚟𝚎𝚕𝚘𝚙𝚎𝚁 🍁", "https://t.me/ll_SABKA_BHAI_KILLER_ll"),
+      Button.url("💖 s𝚞𝚙𝚙𝚘𝚛𝚃 💖", "https://t.me/RONNY_KI_DUNIYA")
     ]
   ]
 
@@ -34,7 +34,7 @@ async def help(event):
     if event.sender_id in SUDO_USERS:
         try:
           await event.client.send_file(event.chat_id,
-              "https://graph.org/file/b0825ba6490d2aa6a6afd.jpg",
+              "https://telegra.ph/file/f627873ed3dc636243f81.jpg",
               caption=HELP_STRING,
               buttons=HELP_BUTTON
               )
@@ -60,7 +60,7 @@ extra_msg = f"""
   2) {hl}𝚕𝚎𝚊𝚟𝚎 : 𝚃𝚢𝚙𝚎 𝚒𝚗 𝚝𝚑𝚛 𝙶𝚛𝚘𝚞𝚘 𝚋𝚘𝚝 𝚠𝚒𝚕𝚕 𝚊𝚞𝚝𝚘 𝚕𝚎𝚊𝚟𝚎 𝚝𝚑𝚊𝚝 𝚐𝚛𝚘𝚞𝚙 
 
 
-**© @PRADHAN474**
+**© @ll_SABKA_BHAI_KILLER_ll**
 """
 
                  
@@ -92,7 +92,7 @@ raid_msg = f"""
   2) {hl}𝚌𝚛𝚊𝚒𝚍 <𝚌𝚘𝚞𝚗𝚝> <𝚛𝚎𝚙𝚕𝚢 𝚝𝚘 𝚞𝚜𝚎𝚛>
 
 
-**© @PRADHAN474**💘
+**© @ll_SABKA_BHAI_KILLER_ll**💘
 """
 
 spam_msg = f"""
@@ -109,7 +109,7 @@ spam_msg = f"""
   1) {hl}𝚑𝚊𝚗𝚐 <𝚌𝚘𝚞𝚗𝚝𝚎𝚛>
 
 
-** © @PRADHAN474**
+** © @ll_SABKA_BHAI_KILLER_ll**
 """                     
            
            
@@ -142,7 +142,7 @@ async def helpback(event):
             ]
           )
     else:
-        await event.answer("𝙾𝚇𝚈𝙶𝙴𝙽 𝚂𝙴 𝙹𝙰 𝙺𝙴 𝚂𝚄𝙳𝙾 𝙻𝙴𝙻𝙾  @PRADHAN474" , cache_time=0, alert=True)
+        await event.answer("𝚂𝙷𝙸𝚅 𝚂𝙴 𝙹𝙰 𝙺𝙴 𝚂𝚄𝙳𝙾 𝙻𝙴𝙻𝙾  @ll_SABKA_BHAI_KILLER_ll" , cache_time=0, alert=True)
 
 
 @X1.on(events.CallbackQuery(pattern=r"spam"))
@@ -161,7 +161,7 @@ async def help_spam(event):
               buttons=[[Button.inline("< Back", data="help_back"),],],
               ) 
     else:
-        await event.answer("𝙾𝚇𝚈𝙶𝙴𝙽 𝚂𝙴 𝙹𝙰 𝙺𝙴 𝚂𝚄𝙳𝙾 𝙻𝙴𝙻𝙾 @PRADHAN474 💖", cache_time=0, alert=True)
+        await event.answer("𝚂𝙷𝙸𝚅 𝚂𝙴 𝙹𝙰 𝙺𝙴 𝚂𝚄𝙳𝙾 𝙻𝙴𝙻𝙾 @ll_SABKA_BHAI_KILLER_ll 💖", cache_time=0, alert=True)
 
 
 @X1.on(events.CallbackQuery(pattern=r"raid"))
@@ -180,7 +180,7 @@ async def help_raid(event):
             buttons=[[Button.inline("< Back", data="help_back"),],],
           )
     else:
-        await event.answer("𝙾𝚇𝚈𝙶𝙴𝙽 𝚂𝙴 𝙹𝙰 𝙺𝙴 𝚂𝚄𝙳𝙾 𝙻𝙴𝙻𝙾 @PRADHAN474 💖", cache_time=0, alert=True)
+        await event.answer("𝚂𝙷𝙸𝚅 𝚂𝙴 𝙹𝙰 𝙺𝙴 𝚂𝚄𝙳𝙾 𝙻𝙴𝙻𝙾 @ll_SABKA_BHAI_KILLER_ll 💖", cache_time=0, alert=True)
 
 
 @X1.on(events.CallbackQuery(pattern=r"extra"))
@@ -199,4 +199,4 @@ async def help_extra(event):
             buttons=[[Button.inline("< Back", data="help_back"),],],
             )
     else:
-        await event.answer("𝙾𝚇𝚈𝙶𝙴𝙽 𝚂𝙴 𝙹𝙰 𝙺𝙴 𝚂𝚄𝙳𝙾 𝙻𝙴𝙻𝙾 @PRADHAN474 💖", cache_time=0, alert=True)
+        await event.answer("𝚂𝙷𝙸𝚅 𝚂𝙴 𝙹𝙰 𝙺𝙴 𝚂𝚄𝙳𝙾 𝙻𝙴𝙻𝙾 @ll_SABKA_BHAI_KILLER_ll 💖", cache_time=0, alert=True)
